@@ -4,8 +4,11 @@ def sum_digits(A):
 	in the list
 	'''
 	total = 0
-    for x in A:
-      p = int(x)
-    #print(p)
-      total += p
-    return total
+	for x in A:
+		type(x) == int
+		total += x
+	return total
+
+#test your code
+
+print sum_digits([1,2,3,4])
