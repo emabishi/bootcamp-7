@@ -16,7 +16,7 @@ people = [
             ]
 
 # for name, age in people:
-#     print hello(anme, age)
+#     print hello(name, age)
 
 # use of unpacking
 
