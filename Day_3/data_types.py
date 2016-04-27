@@ -13,7 +13,7 @@ def data_type(x):
 	    elif type(x) == float:
 		  return (x/2)
 	    elif type(x) == str:
-		  return "Hello " + x
+		  return "Hello " + x   #OR return "Hello {}".format(x)
 	    elif type(x) == bool:
 		  return "boolean"
 	    elif type(x) == long:
@@ -27,5 +27,5 @@ print data_type(3.141)
 print data_type("Potassium")
 print data_type(True)
 print data_type(22298989848899912345467891234567892231456890)
-print data_type(tghy6)   #Exception causing  error, not handled
+print data_type(tghy6)   #Exception causing  error, not handled, unsure of reason
 
