@@ -38,7 +38,7 @@ for name, age in a:
 	new_list.append(x)
 
 for w in new_list:
-	print w.say_Hello()
+	print w.say_Hello() #make the people in a say hello
 
 print "-----------"
 
