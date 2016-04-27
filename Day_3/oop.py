@@ -1,5 +1,5 @@
 from person import Person  #from person file import Person class
-
+from kenyan import Kenyan   #import Kenyan class from kenyan file
 
 '''
 #create class HelloAgain
@@ -42,3 +42,12 @@ for w in new_list:
 
 print "-----------"
 
+k = Kenyan("Miguna", 50)
+
+k.probe(True)
+print "Is {}, corrupt? {}".format(k.name, k.is_corrupt())
+
+print k.say_Hello()
+
+print "-----"
+print k.say_Hello() + " and " + k.is_corrupt()
