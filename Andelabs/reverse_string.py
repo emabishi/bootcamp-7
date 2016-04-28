@@ -24,7 +24,7 @@ def reverse_string(A):
   
 	x = A[::-1]
 	
-	if A == '' and A != x:
+	if A == '' and A != x:  #A is not blank, A is not palindrome  i.e. blank string is pallindrome
 		return 'None'
 	elif A != x:
 		return x
