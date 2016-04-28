@@ -5,6 +5,7 @@ from super_sum import super_sum
 
 class SuperSumTestCase(TestCase):  #unittest module has TestCase method  OR .....(unittest.TestCase)
 	''' Test case for super sum'''
+	'''Note all function names in this class have to start with the word 'test'
 
 	def test_empty_input(self):
 		''' Test empty input'''
