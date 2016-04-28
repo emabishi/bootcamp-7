@@ -1,3 +1,9 @@
+'''
+Output: x: 10, y: 20, z: 30
+        x:  10, y: 20
+        x:  50, y:  60, z: 70
+'''
+
 f = [(10,20,30), (10,20), (50,60,70)]
 
 print len(f)
@@ -9,22 +15,30 @@ for e in f:
 print "---------"
 
 
-'''
-
-for x,y,z in f:
-	if e in f:
-		if len(e) < 3:
-			print "x: {}, y: {}, z: {}".format(x,y)
-			print "x: {}, y: {} , z: {}".format(x,y,z)
+for e in f:
+	if len(e) != 3:
+		print "z : 0"
 	else:
-		print("Okay")
+		print "Has z coordinate"
 
-print "-----------------"
+print "------------"
 
-'''
 
-for x,y,z in f:
-	if len(x) == 2:
-		print "x: {}, y: {}, z: {}".format(x,y)
-	print "x: {}, y: {} , z: {}".format(x,y,z)
-'''
+for e in f:
+	for x,y,z in f:
+		print "x:", x , "y:", y , "z:", z	
+	if len(e) !=3:
+		print "z : 0"
+
+
+
+
+		
+
+
+
+
+
+
+
+
