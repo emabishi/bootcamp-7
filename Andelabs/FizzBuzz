@@ -6,6 +6,7 @@ When the number is not divisible by 3 or 5, the number itself should be returned
 '''
 
 def fizz_buzz(x):
+	type(x) == int
 	if x % 15 == 0:
 		return "FizzBuzz"
 	elif x % 3 == 0:

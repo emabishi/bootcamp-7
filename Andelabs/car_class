@@ -8,9 +8,12 @@ Let the test guide you to building your Car boiler-plate.
 '''
 class Car(object):
 	"""docstring for Car"""
-	def __init__(self,type,model,name):
+	def __init__(self,type_,model,name):
 		#super(Car, self).__init__()
-		self.type = type
+		self.type = type_   #store this as an argument
 		self.model = model
 		self.name = name
+
+
+		
 		
