@@ -22,7 +22,7 @@ def is_arithmetic(l):
         	return 0
     #delta = l[1] - l[0]
     for index in range(len(l) - 1): 	
-        if (l[index + 1] - l[index] == l[index + 2]  - l[index + 1]):
+        if (l[index + 2] - l[index + 1] == l[index + 3]  - l[index + 2]):
         	return "Arithmetic" ##correct
         elif (l[index + 1] / l[index]) == (l[index + 2] / l[index + 1]):
         	return "Geometric"
@@ -32,3 +32,7 @@ def is_arithmetic(l):
 print is_arithmetic([])
 print is_arithmetic([2,4,6,8])
 print is_arithmetic([2,6,18,54,162])
+print is_arithmetic([15, 10, 5, 0, -5, -10])
+print is_arithmetic([0.5, 3.5, 24.5, 171.5])
+print is_arithmetic([1, 2, 3, 5, 8])
+print is_arithmetic([-1, -8, -27, -64, -125])
