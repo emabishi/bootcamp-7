@@ -23,3 +23,17 @@ def check_progression(x):
 		for y in x:
 			if x[len(x)] - x[len(x) - 1] == x[len(x) - 2] - x[len(x) - len(x)]:
 				return "Arithmetic"
+
+
+a = "2"
+b = 2
+
+#print type(a)
+#print type(b)
+
+a = int
+print a
+
+
+w = [1,2,3,4]
+print sum(w)

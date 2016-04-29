@@ -42,7 +42,7 @@ def word_count(string):
 
 
 '''
-
+'''
 def word_count(string):
 	words_ = string.split()  
 	count = {}
@@ -54,25 +54,23 @@ def word_count(string):
 		#if type(string) == type(unicode):
 			#count[word] += 1
 	for i in count:
-		print i, ":", count[i]
+		print i,":",count[i]
 
 '''
-wordslist = wordlst.split()
+def words(A):
+  dictionary = {}
+  
+  for i in A.split():
+    if i.isdigit():
+      i = int (i)
 
-dict_ = {}
 
-for word in wordslist:
-    if word.isdigit():
-        word = int(word)
-    if word in dict_:
-        dict_[word] = dict_[word] + 1
+    if i in dictionary:
+      dictionary[i]  += 1
     else:
-        dict_[word] = 1
-
-return dict_
-
-
-'''
+      dictionary[i] = 1
+      
+  return dictionary
 
 
 print word_count("olly olly in come free")
@@ -82,7 +80,7 @@ print word_count('one fish two fish red fish blue fish')
 print word_count('car : carpet as java : javascript!!&@$%^&')
 print word_count('testing 1 2 testing')
 print word_count('go Go GO')
-print word_count('¡Hola! ¿Qué tal? Привет!')
+
 print word_count('hello\nworld')
 print word_count('hello\tworld')
 print word_count('hello  world')
