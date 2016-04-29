@@ -27,21 +27,6 @@ def word_count(string):
 
 '''
 
-
-'''
-def word_count(string):
-	x = string.split()   #split into list
-	count = {}
-	for word in x:     #x in list_
-		if word in count:  #
-			count[word] += 1
-		else:
-			count[word] = 1
-	for i in count:
-		print i, ":", count[i]
-
-
-'''
 '''
 def word_count(string):
 	words_ = string.split()  

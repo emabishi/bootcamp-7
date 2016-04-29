@@ -33,8 +33,4 @@ def solution(N):
 		print count_1
 		print count_0
 
-
-
-
-	
 solution(23)
